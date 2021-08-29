@@ -22,7 +22,7 @@ var verificationTestCases = [...]struct {
 }{
 	0: {
 		info: Info{
-			Identity: []Identity{{
+			Identity: []info.Identity{{
 				Type:     "pc",
 				Category: "client",
 				Name:     "Exodus 0.9.1",
@@ -39,7 +39,7 @@ var verificationTestCases = [...]struct {
 	},
 	1: {
 		info: Info{
-			Identity: []Identity{
+			Identity: []info.Identity{
 				{
 					Lang:     "en",
 					Type:     "pc",
